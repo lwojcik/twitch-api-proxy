@@ -1,0 +1,28 @@
+{
+  "name": "streamgato-api",
+  "main": "start.js",
+  "scripts": {
+    "start": "node --use_strict start.js"
+  },
+  "dependencies": {
+    "apicache": "^0.11.2",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "helmet": "^3.8.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.6.1",
+    "eslint-plugin-promise": "3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-shell": "^0.6.3",
+    "gulp-util": "^3.0.7",
+    "guppy-pre-commit": "^0.4.0",
+    "mocha": "3.5.1"
+  }
+}
