@@ -21,15 +21,4 @@ module.exports = function(app) {
   app.use( '/api/v3/twitch/utils/getUsername', require('./routes/api/v3/twitch/utils/getUsername/index') );
   app.use( '/api/v3/twitch/utils/getLogo', require('./routes/api/v3/twitch/utils/getLogo/index') );
 
-  app.use( '/api/v3/sc2', require('./routes/api/v3/sc2/index') );
-  app.use( '/api/v3/sc2/bnet', require('./routes/api/v3/sc2/bnet/index') );
-
-  app.use( '/api/v3/sc2/data', require('./routes/api/v3/sc2/data/index') );  
-  
-  app.use( '/api/v3/sc2/data/ladder', require('./routes/api/v3/sc2/data/ladder/index') );
-  app.use( '/api/v3/sc2/data/ladder/lotv', require('./routes/api/v3/sc2/data/ladder/lotv/index') );
-  
-  app.use( '/api/v3/sc2/data/mmr', require('./routes/api/v3/sc2/data/mmr/index') );
-  app.use( '/api/v3/sc2/data/mmr/lotv', require('./routes/api/v3/sc2/data/mmr/lotv/index') );
-
 };

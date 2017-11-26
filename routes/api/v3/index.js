@@ -8,8 +8,7 @@ const apicache = require('apicache').options({ debug: cache.debug }).middleware;
 
 router.get('/', apicache(cache.static), function(req, res) {
   res.json({
-    'twitch_api': config.siteUrl + '/api/v3/twitch',
-    'starcraft2_api': config.siteUrl + '/api/v3/sc2'
+    'twitch_api': config.siteUrl + '/api/v3/twitch'
   });
 });
 
