@@ -1,7 +1,19 @@
 {
-  "name": "streamgato-api",
+  "author": "Łukasz Wójcik <hello@lukaszwojcik.net> (https://github.com/lwojcik)",
+  "name": "twitch-api-proxy",
+  "description": "Node.js wrapper to Twitch.tv API",
+  "version": "0.0.1",
+  "license": "MIT",
   "main": "start.js",
   "private": true,
+  "homepage": "https://github.com/lwojcik/twitch-api-proxy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lwojcik/twitch-api-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lwojcik/twitch-api-proxy/issues"
+  },
   "scripts": {
     "start": "node --use_strict start.js"
   },
@@ -17,7 +29,7 @@
   "devDependencies": {
     "chai": "4.1.2",
     "chai-http": "3.0.0",
-    "eslint": "4.14.0",
+    "eslint": "4.15.0",
     "eslint-plugin-promise": "3.6.0",
     "gulp": "3.9.1",
     "gulp-eslint": "4.0.1",
