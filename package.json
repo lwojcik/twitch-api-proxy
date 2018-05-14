@@ -19,23 +19,22 @@
   },
   "dependencies": {
     "apicache": "1.2.1",
-    "body-parser": "1.18.2",
+    "body-parser": "1.18.3",
     "compression": "1.7.2",
     "express": "4.16.2",
     "helmet": "3.12.0",
-    "lodash": "4.17.5",
+    "lodash": "4.17.9",
     "mongoose": "5.1.1"
   },
   "devDependencies": {
     "chai": "4.1.2",
     "chai-http": "4.0.0",
-
     "eslint": "4.19.1",
     "eslint-plugin-promise": "3.7.0",
     "gulp": "3.9.1",
     "gulp-eslint": "4.0.2",
     "gulp-shell": "0.6.5",
     "guppy-pre-commit": "0.4.0",
-    "mocha": "5.0.5"
+    "mocha": "5.1.1"
   }
 }
