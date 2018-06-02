@@ -8,3 +8,9 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4b135e97631b42282807/test_coverage)](https://codeclimate.com/github/lwojcik/twitch-api-proxy/test_coverage)
 
 Twitch.tv API wrapper. Handling endpoint access, authentication, caching and some data manipulation so that other apps I work on focus only on consuming them.
+
+As of June 2018 the app may be out of sync with Twitch API. Portions of 
+
+## License 
+
+Licensed under MIT license. See [LICENSE](https://raw.githubusercontent.com/lwojcik/twitch-api-proxy/master/LICENSE) for more info.
