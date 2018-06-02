@@ -9,7 +9,7 @@
 
 Twitch.tv API wrapper. Handling endpoint access, authentication, caching and some data manipulation so that other apps I work on focus only on consuming them.
 
-As of June 2018 the app may be out of sync with Twitch API. Portions of 
+As of June 2018 the app is stale due to being out of sync with Twitch API. I'll eventually update it and rerelase portions of it as npm library, but no ETA for that.
 
 ## License 
 
