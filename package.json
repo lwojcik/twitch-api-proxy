@@ -32,7 +32,7 @@
     "eslint": "4.19.1",
     "eslint-plugin-promise": "3.8.0",
     "gulp": "3.9.1",
-    "gulp-eslint": "4.0.2",
+    "gulp-eslint": "5.0.0",
     "gulp-shell": "0.6.5",
     "guppy-pre-commit": "0.4.0",
     "mocha": "5.2.0"
